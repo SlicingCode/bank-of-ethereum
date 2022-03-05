@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'MEEDORI SANS';
+  src: url('/assets/fonts/MeedoriSans/MeedoriSans-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  font-family: 'MEEDORI SANS';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  background: -webkit-linear-gradient(#cbc8ce, #9576ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-primary {
+  background: linear-gradient(90deg, #000000 0%, #3b3152 100%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
